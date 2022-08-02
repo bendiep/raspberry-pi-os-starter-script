@@ -16,6 +16,9 @@ sudo apt install python -y
 # Install PHP
 sudo apt install php -y
 
+# Install Pip
+sudo apt install pip -y
+
 # Install ruby
 sudo apt install ruby -y
 
