@@ -29,6 +29,7 @@ sudo apt install ack -y
 echo "Welcome ${LOGNAME} to this private linux server." >> .profile
 
 # Setup aliases
+echo "alias ll=\"ls -l\"" >> .profile
 echo "alias login-attempt-accepted=\"cat /var/log/auth.log | grep 'Accepted password'\"" >> .profile
 echo "alias login-attempt-failed=\"cat /var/log/auth.log | grep 'Failed password'\"" >> .profile
 echo "alias python=python3" >> .profile
