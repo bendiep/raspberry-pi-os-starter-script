@@ -9,8 +9,13 @@ ngrok --version
 # Set auth token (get from website)
 # ngrok authtoken [YOUR AUTH TOKEN]
 
-# Start Ngrok server (public access)
+# Start Ngrok server and keep running after session (public access)
+# screen
 # ngrok tcp 22 > /dev/null &
+# Ctrl-A then Ctrl-D (This will detach your screen session but leave your processes running)
+
+# Re-enter session
+# screen -r
 
 # Stop Ngrok server (local access)
 # kill [pid]

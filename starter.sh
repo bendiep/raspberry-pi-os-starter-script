@@ -25,6 +25,9 @@ sudo apt install ruby -y
 # Install Ack
 sudo apt install ack -y
 
+# Install Screen
+sudo apt install screen -y
+
 # Update ssh welcome message
 echo "Welcome ${LOGNAME} to this private linux server." >> .profile
 
