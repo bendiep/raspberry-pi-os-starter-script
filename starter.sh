@@ -43,3 +43,8 @@ echo "bind '\"\e[B\": history-search-forward'" >> .profile
 
 # Display about of disk space left on device
 df -h
+
+# Sense Hat visual login status
+# python ~/random_sparkles.py # start status when user logs in
+# alias logout="pkill python3; python ~/matrix_clear.py; logout;" # clear status on logout
+# alias exit="pkill python3; python ~/matrix_clear.py; exit;" # clear status on exit
