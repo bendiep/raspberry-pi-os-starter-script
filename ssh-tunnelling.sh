@@ -18,7 +18,7 @@ ngrok --version
 # screen -r
 
 # Stop Ngrok server (local access)
-# kill [pid]
+# pkill ngrok
 
 # Note:
 #  - TTL - how many login attempts
