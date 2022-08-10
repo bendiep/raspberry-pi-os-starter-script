@@ -29,7 +29,7 @@ sudo apt install ack -y
 sudo apt install screen -y
 
 # Update ssh welcome message
-echo "Welcome ${LOGNAME} to this private linux server." >> .profile
+echo "echo -e \"\nWelcome ${LOGNAME} to this private linux server.\"" >> .profile
 
 # Setup aliases
 echo "alias ll=\"ls -l\"" >> .profile
