@@ -12,6 +12,7 @@ sudo apt install npm -y
 
 # Install Python
 sudo apt install python -y
+sudo apt install libatlas-base-dev -y
 
 # Install PHP
 sudo apt install php -y
