@@ -42,6 +42,9 @@ echo "alias python=python3" >> .profile
 echo "bind '\"\e[A\": history-search-backward'" >> .profile
 echo "bind '\"\e[B\": history-search-forward'" >> .profile
 
+# TAB autocomplete settings
+echo "bind -s 'set completion-ignore-case on'" >> .profile
+
 # Display about of disk space left on device
 df -h
 
