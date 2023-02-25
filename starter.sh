@@ -4,7 +4,7 @@
 sudo apt update -y
 sudo apt install git -y
 
-# Install Nodejs
+# Install Node.js
 sudo apt install nodejs -y
 
 # Install NPM
@@ -20,7 +20,7 @@ sudo apt install php -y
 # Install Pip
 sudo apt install pip -y
 
-# Install ruby
+# Install Ruby
 sudo apt install ruby -y
 
 # Install Ack
