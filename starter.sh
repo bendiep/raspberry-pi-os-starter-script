@@ -49,6 +49,9 @@ echo "bind -s 'set completion-ignore-case on'" >> .profile
 df -h
 
 # Sense Hat visual login status
-# python ~/random_sparkles.py # start status when user logs in
-# alias logout="pkill python3; python ~/matrix_clear.py; logout;" # clear status on logout
-# alias exit="pkill python3; python ~/matrix_clear.py; exit;" # clear status on exit
+    # start random_sparkles.py when user logs in
+    # (sleep 0 && kill -SIGTSTP $$) & python projects/random_sparkles.py > /dev/null 2>&1 &
+
+    # end random_sparkles.py when user logs out
+    # alias logout="pkill python3; python ~/projects/matrix_clear.py > /dev/null 2>&1; exit"
+    # alias exit="pkill python3; python ~/projects/matrix_clear.py > /dev/null 2>&1; exit;"
