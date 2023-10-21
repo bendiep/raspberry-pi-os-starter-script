@@ -29,6 +29,9 @@ sudo apt install ack -y
 # Install Screen
 sudo apt install screen -y
 
+# Install Pixlet
+# https://github.com/tidbyt/pixlet/blob/main/docs/BUILD.md
+
 # Update ssh welcome message
 echo "echo -e \"\nWelcome ${LOGNAME} to this private linux server.\"" >> .profile
 
