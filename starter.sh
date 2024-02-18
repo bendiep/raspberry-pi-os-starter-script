@@ -49,7 +49,10 @@ echo "bind '\"\e[B\": history-search-forward'" >> .profile
 echo "bind -s 'set completion-ignore-case on'" >> .profile
 
 # Display about of disk space left on device
-df -h
+# df -h
+
+# Display CPU / Memory usage
+# htop
 
 # Sense Hat visual login status
     # start random_sparkles.py when user logs in
