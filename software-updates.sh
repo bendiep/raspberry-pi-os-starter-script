@@ -6,3 +6,7 @@ sudo apt install unattended-upgrades -y
 
 # Enable Unattended Upgrades
 # sudo dpkg-reconfigure --priority=low unattended-upgrades
+
+# Update APT (Advanced Packaging Tool) packages
+sudo apt-get update
+sudo apt-get upgrade -y
