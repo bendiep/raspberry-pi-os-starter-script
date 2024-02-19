@@ -34,3 +34,15 @@ sudo apt install dnsutils -y
 
 # Install Pixlet
 # https://github.com/tidbyt/pixlet/blob/main/docs/BUILD.md
+
+# Set Cloudflare as DNS service
+    # sudo nano /etc/dhcpcd.conf
+
+    # Insert line at the bottom
+    # static domain_name_servers=1.1.1.1 1.0.0.1
+
+    # Restart dhcpcd service
+    # sudo service dhcpcd restart
+
+    # Check DNS service was applied correctly
+    # cat /etc/resolv.conf
