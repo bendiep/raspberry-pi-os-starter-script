@@ -29,5 +29,8 @@ sudo apt install ack -y
 # Install Screen
 sudo apt install screen -y
 
+# Install DNS Utils
+sudo apt install dnsutils -y
+
 # Install Pixlet
 # https://github.com/tidbyt/pixlet/blob/main/docs/BUILD.md
